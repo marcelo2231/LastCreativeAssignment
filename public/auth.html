@@ -40,7 +40,7 @@
       } else {
         firebase.auth().signOut();
       }
-      document.getElementById('quickstart-sign-in').disabled = true;
+      document.getElementById('quickstart-sign-in').disabled = false;
     }
     
     function initApp() {
@@ -100,7 +100,7 @@
 <body>
 
 
-<button disabled class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Facebook</button>
+<button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Facebook</button>
 <div>
 Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
 <br>
@@ -110,7 +110,6 @@ Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
 <div>Phone number: <a id="phoneNumber">null</a></div>
 <div>Facebook OAuth Access Token: <a id="token">null</a></div>
 </div>
-
 
 </body>
 </html>
