@@ -40,7 +40,6 @@
       } else {
         firebase.auth().signOut();
       }
-      document.getElementById('quickstart-sign-in').disabled = false;
     }
     
     function initApp() {
@@ -88,7 +87,6 @@
           document.getElementById('phoneNumber').textContent = 'null';
           document.getElementById('uid').textContent = 'null';
         }
-        document.getElementById('quickstart-sign-in').disabled = false;
       });
       document.getElementById('quickstart-sign-in').addEventListener('click', toggleSignIn, false);
     }
