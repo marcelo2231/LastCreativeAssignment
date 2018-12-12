@@ -1,8 +1,51 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-top:0;
+  color: rgb(50, 50, 50);
+  background-color: white;
+  font-family: 'Montserrat';
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  text-align: center;
+  list-style-position: inside;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button {
+    background-color: #C20114;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+div {
+  max-width:500px;
+  margin:auto;
+}
+
+label {
+  color: #0C120C;
 }
 
 a {
-  color: #00B7FF;
+  color: #0C120C;
+}
+
+h1{
+  color: #0C120C;
+}
+div{
+  color:#0C120C;
+}
+input{
+  color: #0C120C;
 }
